@@ -10,7 +10,6 @@ let backend
 
 program
   .arguments('<project>')
-  .option('-b --backend <backend>', 'The project backend. Options are firebase and mongodb')
   .action(project => {
     if(!program.backend) {
       co(function *() {
