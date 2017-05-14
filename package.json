@@ -1,0 +1,42 @@
+{
+  "name": "createReactProject",
+  "version": "1.0.0",
+  "description": "react project creation via command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers:js:babel-register -t 20000",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkol36/tasks_js.git"
+  },
+  "keywords": [
+    "node",
+    "setup",
+    "react",
+    "setup",
+    "react-starter-project"
+  ],
+  "author": "Jon Kolman",
+  "license": "ISC",
+  "bin": {
+    "createReactProject": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jkol36/tasks_js/issues"
+  },
+  "homepage": "https://github.com/jkol36/tasks_js#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "bluebird": "^3.5.0",
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "shelljs": "^0.7.7"
+  }
+}
