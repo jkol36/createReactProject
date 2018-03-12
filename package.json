@@ -1,5 +1,5 @@
 {
-  "name": "createReactProject",
+  "name": "createReactNativeProject",
   "version": "1.0.0",
   "description": "react project creation via command line",
   "main": "index.js",
@@ -16,12 +16,12 @@
     "setup",
     "react",
     "setup",
-    "react-starter-project"
+    "react-native-starter-project"
   ],
   "author": "Jon Kolman",
   "license": "ISC",
   "bin": {
-    "createReactProject": "./index.js"
+    "createReactNativeProject": "./index.js"
   },
   "bugs": {
     "url": "https://github.com/jkol36/tasks_js/issues"
