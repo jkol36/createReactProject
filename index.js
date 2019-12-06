@@ -34,7 +34,7 @@ program
           console.log(chalk.bold.cyan('cding into rest api directory...'))
           shell.cd('./restapi-mongo-starter-kit')
           console.log(chalk.bold.cyan('running npm install'))
-          shell.exec('npm install')
+          shell.exec('yarn')
           console.log(chalk.bold.cyan('rest api ready'))
           console.log(chalk.bold.cyan(`run this: cd ~/development/${project}`))
         }
